@@ -15,7 +15,7 @@ script = ExtResource("1_f3sb7")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.7359022, 0.051355064, 0.093716145)
 
 [node name="cliff_blockCave_rock2" parent="." unique_id=955828701 instance=ExtResource("4_pkg7o")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1220824, -0.022467732, -0.006023586)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.99238956, -0.00016966462, 0.0013970137)
 
 [node name="tree_plateau_dark2" parent="." unique_id=1495321467 instance=ExtResource("5_gbfbk")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6388636e-05, 1.0080563, -0.15112829)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6388636e-05, 1.0080563, -0.2443366)
