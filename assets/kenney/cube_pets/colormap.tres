@@ -1,5 +1,8 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://c5tyx2iagltjs"]
 
+[ext_resource type="Texture2D" uid="uid://1m80j7w3vvb7" path="res://assets/kenney/cube_pets/colormap.png" id="1_xhypa"]
+
 [resource]
 resource_name = "colormap"
 cull_mode = 2
+albedo_texture = ExtResource("1_xhypa")
