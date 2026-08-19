@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://b3kr0oxl6eiuh"]
+
+[ext_resource type="PackedScene" uid="uid://qlu0q8hvsta1" path="res://assets/kenney/nature/cliff_blockCave_rock.glb" id="1_y1x14"]
+[ext_resource type="PackedScene" uid="uid://dny3mhwmfrdy3" path="res://assets/kenney/nature/cliff_blockCave_stone.glb" id="2_bpumw"]
+
+[node name="BlockLibrary" type="Node3D" unique_id=1137724902]
+
+[node name="cliff_blockCave_rock2" parent="." unique_id=955828701 instance=ExtResource("1_y1x14")]
+
+[node name="cliff_blockCave_stone2" parent="." unique_id=1510678477 instance=ExtResource("2_bpumw")]

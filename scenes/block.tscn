@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://04j7d5p86q68"]
+
+[ext_resource type="PackedScene" uid="uid://qlu0q8hvsta1" path="res://assets/kenney/nature/cliff_blockCave_rock.glb" id="1_8r6n6"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_cgrg5"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4kun4"]
+
+[node name="Block" type="Node3D" unique_id=213946255]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=482049175]
+physics_material_override = SubResource("PhysicsMaterial_cgrg5")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=614015595]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.44545096, 0)
+shape = SubResource("BoxShape3D_4kun4")
+
+[node name="cliff_blockCave_rock2" parent="StaticBody3D" unique_id=955828701 instance=ExtResource("1_8r6n6")]
